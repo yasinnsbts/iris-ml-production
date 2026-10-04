@@ -13,7 +13,7 @@ dependencies = [
 
 [tool.poetry]
 packages = [
-    {include = "iris_classifier", from = "src"}
+    {include = "iris_classifier"}
 ]
 
 [build-system]
@@ -30,7 +30,7 @@ dev = [
 [tool.ruff]
 line-length = 88
 target-version = "py313"
-src = ["src", "tests"]
+src = ["."]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]

@@ -15,6 +15,6 @@ repos:
 
       - id: pytest
         name: Pytest
-        entry: poetry run pytest -q
+        entry: poetry run python -m pytest -q
         language: system
         pass_filenames: false

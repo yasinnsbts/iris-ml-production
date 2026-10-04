@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 
 from iris_classifier.data import load_data
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 MODEL_DIR = PROJECT_ROOT / "models"
 MODEL_PATH = MODEL_DIR / "iris_model.joblib"
 
