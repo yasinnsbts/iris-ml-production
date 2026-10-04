@@ -7,7 +7,13 @@ authors = [
 ]
 requires-python = ">=3.13,<4.0"
 dependencies = [
-    "scikit-learn (>=1.9.1,<2.0.0)"
+    "scikit-learn (>=1.9.1,<2.0.0)",
+    "joblib (>=1.6.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    {include = "iris_classifier", from = "src"}
 ]
 
 [build-system]
