@@ -1,0 +1,15 @@
+[project]
+name = "iris-ml-production"
+version = "0.1.0"
+description = "Iris classification ML project refactored to production-like standards"
+authors = [
+    {name = "Yaroslav"}
+]
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "scikit-learn (>=1.9.1,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
